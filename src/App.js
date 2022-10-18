@@ -1,12 +1,25 @@
-import './App.css';
-import NavBar from './components/NavBar'
+import "./App.css";
+import {
+  createBrowserRouter,
+  BrowserRouter as Router,
+  RouterProvider,
+  Routes,
+  Route,
+  Link,
+} from "react-router-dom";
 
-function App() {
+import Navbar from './components/js/Navbar'
+import Home from './components/js/Home.jsx'
+import Sobre from './components/js/Sobre.jsx'
+
+export default function App() {
   return (
-    <div className="App">
-      <NavBar />
-    </div>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />}/>
+        <Route path="/sobre" element={<Sobre />}/>
+      </Routes>
+    </Router>
   );
 }
-
-export default App;
