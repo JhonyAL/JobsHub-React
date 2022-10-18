@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import "../css/Navbar.css";
 import logo from "../images/jobshub-logo.png";
+import { FaUserCircle } from "react-icons/fa";
 
 export default function Navbar() {
   return (
@@ -22,9 +23,9 @@ export default function Navbar() {
             <Link to="/contato">Contato</Link>
           </div>
         </div>
-      </div>
-      <div className="navbar-right">
-        
+        <div className="navbar-right">
+          <FaUserCircle />
+        </div>
       </div>
     </nav>
   );

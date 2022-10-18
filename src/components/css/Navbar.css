@@ -18,19 +18,19 @@
 }
 
 .item-div {
-	width: 100px;
-	height: 100%;
-	padding: 0px 5px;
-    font-size: 15px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	cursor: pointer;
-    text-decoration: none;
+  width: 100px;
+  height: 100%;
+  padding: 0px 5px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .item-div:hover {
-	background-color: orange;
+  background-color: orange;
 }
 
 .items {
