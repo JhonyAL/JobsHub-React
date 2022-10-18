@@ -1,0 +1,10 @@
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div input {
+    width: 200px;
+    padding: 10px;
+}

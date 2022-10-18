@@ -12,17 +12,19 @@ export default function Navbar() {
               <img src={logo} alt="JobsHub logo" />
             </Link>
           </div>
-          <Link to="/">
-            <div>Página Inicial</div>
-            <i className="item-navbar"></i>
-          </Link>
-          <Link to="/categoria">
-            <div>Categoria</div>
-          </Link>
-          <Link to="/contato">
-            <div>Contato</div>
-          </Link>
+          <div clasName="item-div">
+            <Link to="/">Página Inicial</Link>
+          </div>
+          <div clasName="item-div">
+            <Link to="/categoria">Categoria</Link>
+          </div>
+          <div clasName="item-div">
+            <Link to="/contato">Contato</Link>
+          </div>
         </div>
+      </div>
+      <div className="navbar-right">
+        
       </div>
     </nav>
   );
