@@ -23,9 +23,9 @@ export default function Navbar() {
             <Link to="/contato">Contato</Link>
           </div>
         </div>
-        <div className="navbar-right">
-          <FaUserCircle />
-        </div>
+      </div>
+      <div className="navbar-right">
+        <FaUserCircle />
       </div>
     </nav>
   );
