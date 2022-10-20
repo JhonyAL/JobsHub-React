@@ -1,5 +1,9 @@
+import '../css/Login.css'
+
 export default function Login() {
     return (
-        <div></div>
+        <div className='Login'>
+            <h1>Teste</h1>
+        </div>
     )
 }

@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 50px;
+  padding: 110px;
 }
 
 h1 {
@@ -12,7 +12,7 @@ h1 {
   text-align: center;
   margin-bottom: 15px;
   color: rgb(255, 166, 0);
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .search-input {
@@ -23,6 +23,7 @@ h1 {
   position: relative;
   border-radius: 10px;
   cursor: text;
+  box-shadow: 0px 0 100px 0px;
 }
 
 .search-input input {

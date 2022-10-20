@@ -27,10 +27,10 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-      <div className="navbar-right">
-        <p>Teste</p>
+      <Link to="/perfil" className="navbar-right">
+        <p>Jorge Eduardo</p>
         <FaUserCircle className="perfil-icon" />
-      </div>
+      </Link>
     </nav>
   );
 }

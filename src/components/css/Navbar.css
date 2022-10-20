@@ -52,10 +52,12 @@
   align-items: center;
   justify-content: center;
   right: 30px;
+  cursor: pointer;
   gap: 15px;
+  font-size: 40px;
 }
 
-.perfil-icon {
-  font-size: 40px;
-  cursor: pointer;
+p {
+  color: rgb(255, 145, 0);
+  font-size: 18px;
 }

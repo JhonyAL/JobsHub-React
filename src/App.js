@@ -10,8 +10,9 @@ import {
 import { CiSearch } from 'react-icons'
 
 import Navbar from './components/js/Navbar'
-import Home from './components/js/Home.jsx'
-import Sobre from './components/js/Sobre.jsx'
+import Home from './components/js/Home'
+import Sobre from './components/js/Sobre'
+import Login from './components/js/Login'
 
 export default function App() {
   return (
