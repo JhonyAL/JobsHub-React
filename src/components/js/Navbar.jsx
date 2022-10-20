@@ -28,6 +28,7 @@ export default function Navbar() {
         </div>
       </div>
       <div className="navbar-right">
+        <p>Teste</p>
         <FaUserCircle className="perfil-icon" />
       </div>
     </nav>

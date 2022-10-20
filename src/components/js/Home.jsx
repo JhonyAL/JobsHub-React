@@ -1,10 +1,10 @@
 import "../css/Home.css";
 import { BiSearch } from "react-icons/bi";
+import { useState } from "react";
 
 export default function Home() {
-  const sla = (search) => {
-    console.log(search.value);
-  };
+  const [sla, setSla] = useState('')
+  console.log(sla)
 
   return (
     <div>
@@ -19,7 +19,7 @@ export default function Home() {
               name="search"
               id="search"
               placeholder="Ex: São Paulo..."
-              onChange={sla}
+              onChange={setSla}
             />
             <p>
               <BiSearch />

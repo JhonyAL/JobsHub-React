@@ -48,9 +48,14 @@
 .navbar-right {
   color: #fff;
   position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   right: 30px;
+  gap: 15px;
 }
 
 .perfil-icon {
   font-size: 40px;
+  cursor: pointer;
 }
