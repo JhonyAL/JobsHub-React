@@ -1,8 +1,18 @@
+.search-section {
+  height: 350px;
+  background: url('../images/pessoas-trabalhando.png'), rgba(0, 0, 0, 0.35);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 50px;
+}
+
 h1 {
   font-size: 25px;
   text-align: center;
   margin-bottom: 15px;
-  color: #d37f00;
+  color: #000;
+  font-weight: 600;
 }
 
 .search-input {

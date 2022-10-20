@@ -22,10 +22,13 @@ export default function Navbar() {
           <div clasName="item-div">
             <Link to="/contato">Contato</Link>
           </div>
+          <div clasName="item-div">
+            <Link to="/sobre">Sobre</Link>
+          </div>
         </div>
       </div>
       <div className="navbar-right">
-        <FaUserCircle />
+        <FaUserCircle className="perfil-icon" />
       </div>
     </nav>
   );
