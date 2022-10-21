@@ -1,0 +1,8 @@
+.chat-icon {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: #ff8800;
+    font-size: 50px;
+    cursor: pointer;
+}

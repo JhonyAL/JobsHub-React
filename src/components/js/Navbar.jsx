@@ -3,6 +3,7 @@ import "../css/Navbar.css";
 import logo from "../images/jobshub-logo.png";
 import { FaUserCircle } from "react-icons/fa";
 import Login from "./Login";
+import perfilIcon from '../images/perfil-icon.png'
 
 export default function Navbar() {
 
@@ -30,8 +31,9 @@ export default function Navbar() {
         </div>
       </div>
       <Link to="/login" className="navbar-right">
-        <p>Jorge Eduardo</p>
-        <FaUserCircle className="perfil-icon"/>
+        <p>Lucca Vinicius</p>
+        <img src={perfilIcon} alt="" className="perfil-icon"/>
+        {/* <FaUserCircle className="perfil-icon"/> */}
       </Link>
     </nav>
   );
