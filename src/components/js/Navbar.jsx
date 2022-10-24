@@ -33,7 +33,6 @@ export default function Navbar() {
       <Link to="/login" className="navbar-right">
         <p>Lucca Vinicius</p>
         <img src={perfilIcon} alt="" className="perfil-icon"/>
-        {/* <FaUserCircle className="perfil-icon"/> */}
       </Link>
     </nav>
   );

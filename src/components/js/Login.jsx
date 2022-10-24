@@ -27,6 +27,7 @@ export default function Login() {
                         <span>Senha</span>
                         <Link to="/" className='pass'>Esqueceu a senha?</Link>
                     </label>
+                    <button type="submit" className='btnSubmit'>Entrar</button>
                 </div>
             </div>
         </div>
