@@ -40,7 +40,6 @@
 .login-box .login-inputs {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 20px;
   width: 100%;
   margin-top: 30px;
@@ -49,21 +48,40 @@
 .login-box .login-inputs label {
   width: 100%;
   height: 45px;
+  border: 2px #ffffff00 solid;
+  padding: 8px;
   border-bottom: #fff solid 2px;
   transition: 100ms ease-in;
   position: relative;
   color: #eee;
+  transition: 200ms ease-in;
+
 }
 
 .login-box .login-inputs label span {
   position: absolute;
-  left: 0;
+  left: 0px;
   top: 18px;
+  font-size: 15px;
+  color: #fff;
+  transition: 100ms ease-in;
 }
 
-.login-box .login-inputs label:hover {
-  border-bottom: #ff8800 solid 2px;
+.login-box .login-inputs label .login-span {
+  position: absolute;
+  left: 10px;
+  top: -5px;
+  font-size: 13px;
+  background: #000;
   color: #ff8800;
+  width: 50px;
+  text-align: center;
+  /* top: 18px; */
+}
+
+.login-box .login-inputs .label-active {
+  border: #ff8800 solid 2px;
+  border-radius: 5px;
 }
 
 .login-box .login-inputs label input {
@@ -78,35 +96,13 @@
   color: #fff;
 }
 
-.login-box .login-inputs .label-active span {
-    top: 5px;
-    font-size: 12px;
-}
-
 .pass {
-    position: absolute;
-    bottom: -30px;
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .pass:hover {
     color: #ff8800;
-}
-
-.close-icon {
-  font-size: 5px;
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 40px;
-  height: 30px;
-  color: #fff;
-}
-
-.close-icon:hover {
-  background: #ff8800;
-  color: #000;
 }
 
 .btnSubmit {
@@ -114,9 +110,25 @@
   width: 100%;
   margin-top: 150px;
   background: #ff8800;
+  color: #101010;
   font-size: 15px;
+  font-weight: 600;
 }
 
 .btnSubmit:hover {
   background: #e78300;
+}
+
+.close-icon {
+  font-size: 5px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  width: 40px;
+  height: 30px;
+  color: #fff;
+}
+
+.close-icon:hover {
+  color: #ff9100;
 }
