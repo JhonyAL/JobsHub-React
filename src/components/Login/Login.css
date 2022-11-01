@@ -8,6 +8,7 @@
   width: 100%;
   height: 100%;
   background-color: #00000085;
+  color: #fff;
 }
 
 .display-none {
@@ -131,4 +132,12 @@
 
 .close-icon:hover {
   color: #ff9100;
+}
+
+.teste {
+  font-size: 13px;
+}
+
+.teste .sla:hover {
+  color: #ff8800;
 }

@@ -1,6 +1,6 @@
-import "../css/Login.css";
+import "./Login.css";
 import { AiOutlineClose } from "react-icons/ai";
-import logo from "../images/jobshub-logo.png";
+import logo from "../../assets/images/jobshub-logo.png";
 import { Link } from "react-router-dom";
 
 export default function Login() {
@@ -15,14 +15,14 @@ export default function Login() {
     const span = target.previousElementSibling;
     const label = target.parentElement;
     span.classList.add("login-span");
-    label.classList.add('label-active');
+    label.classList.add("label-active");
   };
 
   const handleFocusOut = ({ target }) => {
     if (target.value === "") {
       const span = target.previousElementSibling;
       const label = target.parentElement;
-      label.classList.remove('label-active');
+      label.classList.remove("label-active");
       span.classList.remove("login-span");
     }
   };
@@ -30,7 +30,7 @@ export default function Login() {
   inputs.forEach((input) => input.addEventListener("focus", handleFocus));
   inputs.forEach((input) => input.addEventListener("focusout", handleFocusOut));
 
-  const labels = document.querySelectorAll("label");
+  // const labels = document.querySelectorAll("label");
 
   return (
     <div className="Login">
@@ -44,12 +44,22 @@ export default function Login() {
         <h1>Entrar</h1>
         <div className="login-inputs">
           <label htmlFor="email" className="">
-            <span className="">Email</span>
-            <input type="email" id="email" className="input" />
+            {/* <span className="">Email</span> */}
+            <input
+              type="email"
+              id="email"
+              className="input"
+              placeholder="Email"
+            />
           </label>
           <label htmlFor="email" className="">
-            <span className="">Senha</span>
-            <input type="password" id="password" className="input" />
+            {/* <span className="">Senha</span> */}
+            <input
+              type="password"
+              id="password"
+              className="input"
+              placeholder="Senha"
+            />
           </label>
           <Link to="/" className="pass">
             Esqueceu a senha?
@@ -57,6 +67,12 @@ export default function Login() {
           <button type="submit" className="btnSubmit">
             Entrar
           </button>
+          <span className="teste">
+            Não tem uma conta?{" "}
+            <Link to="/" className="sla">
+              Cadastre-se
+            </Link>
+          </span>
         </div>
       </div>
     </div>

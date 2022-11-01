@@ -36,7 +36,7 @@
 }
 
 .item-div:hover {
-  background-color: orange;
+  color: orange;
 }
 
 .items {
@@ -48,7 +48,6 @@
 }
 
 .navbar-right {
-  color: #fff;
   position: absolute;
   display: flex;
   align-items: center;

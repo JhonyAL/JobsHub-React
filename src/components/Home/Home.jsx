@@ -1,11 +1,11 @@
-import "../css/Home.css";
+import "./Home.css";
 import { BiSearch } from "react-icons/bi";
 import { useState } from "react";
-import Login from "./Login";
-import lucca from "../images/perfil-icon.png";
-import miya from "../images/miyashiro.png";
-import mito from "../images/mito.png";
-import lula from "../images/lula.png";
+import Login from "../Login/Login";
+import lucca from "../../assets/images/perfil-icon.png";
+import miya from "../../assets/images/miyashiro.png";
+import mito from "../../assets/images/mito.png";
+import lula from "../../assets/images/lula.png";
 import { AiFillStar } from "react-icons/ai";
 
 export default function Home() {

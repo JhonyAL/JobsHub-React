@@ -1,0 +1,29 @@
+.Chat {
+    display: flex;
+    margin-top: 60px;
+}
+
+.Chat .chat-left {
+    height: 100vh;
+    width: 350px;
+    background: #bbbbbbcc;
+    display: flex;
+    flex-direction: column;
+}
+
+.Chat .chat-left h1 {
+    margin: 10px auto;
+    color: #000;
+    font-size: 30px;
+    font-weight: 750;
+}
+
+.Chat .chat-left .item-chat img {
+
+}
+
+.Chat .chat {
+    width: calc(100vw - 350px);
+    height: 100vh;
+    background: #eeeeeedd;
+}

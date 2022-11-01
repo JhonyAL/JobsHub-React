@@ -9,10 +9,11 @@ import {
 } from "react-router-dom";
 import { CiSearch } from "react-icons";
 
-import Navbar from "./components/js/Navbar";
-import Home from "./components/js/Home";
+import Navbar from "./components/Navbar/Navbar";
+import Home from "./components/Home/Home";
 import Sobre from "./components/js/Sobre";
-import Login from "./components/js/Login";
+import Login from "./components/Login/Login";
+import Chat from "./components/Chat/Chat";
 import { BsFillChatDotsFill } from "react-icons/bs";
 
 export default function App() {
@@ -22,12 +23,13 @@ export default function App() {
         <header>
           <Navbar />
         </header>
-        <BsFillChatDotsFill className="chat-icon" />
+        <Link to="/conversas"><BsFillChatDotsFill className="chat-icon" /></Link>
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/sobre" element={<Sobre />} />
             <Route path="/login" element={<Login />} />
+            <Route path="/conversas" element={<Chat />} />
           </Routes>
         </main>
       </Router>
