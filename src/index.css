@@ -4,10 +4,8 @@
   box-sizing: border-box;
 }
 
-
-
 body {
-  background: linear-gradient(rgba(255, 255, 255, 0), rgba(10, 10, 10, 0.8925), rgba(0, 0, 0, 1)), url('components/images/pessoas-trabalhando.png');
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(10, 10, 10, 0.8925), rgba(0, 0, 0, 1)), url('./assets/images/pessoas-trabalhando.png');
   font-family: Helvetica;
   background-repeat: no-repeat;
   background-position: center;

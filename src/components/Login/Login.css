@@ -51,7 +51,7 @@
   height: 45px;
   border: 2px #ffffff00 solid;
   padding: 8px;
-  border-bottom: #fff solid 2px;
+  border-bottom: solid 1px #fff;
   transition: 100ms ease-in;
   position: relative;
   color: #eee;
@@ -114,6 +114,7 @@
   color: #101010;
   font-size: 15px;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .btnSubmit:hover {
